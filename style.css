@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+}
+.menu{
+	background-color: #45015d;
+	position: fixed;
+	width: 200px;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 15px;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+.menu a{
+	color: white;
+	display: block;
+	text-decoration: none;
+	padding: 8px 16px;
+}
+.menu a:hover{
+	color: #45015d;
+	background-color: white;
+}
+.menu h3{
+	font-size: 16px;
+}
+.main{
+	margin: 80px 40px 80px 360px;
+}
+.main h1{
+	font-size: 64px;
+	font-weight: 400;
+}
+.main h2{
+	font-size: 48px;
+	font-weight: 400;
+	color: #45015d;
+	margin: 10px 0;
+}
+.main hr{
+	border: 4px solid #45015d;
+	border-radius: 4px;
+	margin: 20px 0;
+}
+.images img{
+	width: 45%;
+	margin: 5px;
+	border-radius: 10px;
+	opacity: 0.7;
+}
+.images img:hover{
+	opacity: 1;
+}
+.card img{
+	border-radius: 10px;
+	width: 100%;
+	filter: grayscale(40%);
+}
+.card{
+	display: inline-block;
+	width: 30%;
+	margin: 10px;
+}
+.card-descr{
+	background-color: #f1f1f1;
+	border-radius: 4px;
+	padding: 5px 10px;
+}
+.position{
+	opacity: 0.7;
+}
+.package{
+	list-style: none;
+	background-color: #f1f1f1;
+	width: 48%;
+	text-align: center;
+	border-radius: 10px;
+	padding: 0;
+	display: inline-block;
+}
+.package li{
+	padding: 16px 0;
+	border-bottom: 1px solid #ddd;
+}
+.package .package-title{
+	padding: 32px 0;
+	background-color: #45015d;
+	border-radius: 10px;
+	color: white;
+	font-size: 24px;
+}
+.price{
+	font-size: 30px;
+}
+.period{
+	opacity: 0.7;
+}
+.package button{
+	padding: 15px 20px;
+	color: #45015d;
+	border-radius: 20px;
+	background-color: white;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+.pro .package-title{
+	background-color: #f44336;
+}
+.pro button{
+	color: #f44336;
+}
+.contact label{
+	display: block;
+}
+.contact input, 
+.contact textarea, 
+.contact button{
+	width: 100%;
+	height: 30px;
+	resize: vertical;
+	margin-bottom: 20px;
+	padding: 0 10px;
+}
+.contact button{
+	color: white;
+	background-color: #45015d;
+	border-radius: 5px;
+	font-size: 16px;
+	height: 40px;
+}
+*{
+	box-sizing: border-box;
+}
+.footer{
+	background-color: #f1f1f1;
+	text-align: right;
+	padding: 100px 20px;
+}
+body{
+	margin: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
